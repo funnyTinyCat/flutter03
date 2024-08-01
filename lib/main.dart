@@ -33,7 +33,7 @@ class WeatherPage extends StatefulWidget {
 class _WeatherPageState extends State<WeatherPage> {
   //
   final List<String> cities = ['Atlanta', 'London', 'Istanbul', 'Mumbai'];
-  final String apiKey = "2e191fb357792167b37d64fee5428116";
+  final String apiKey = "HERE_SHOULD_BE_TOKEN";
   Map<String, dynamic> weatherData = {};
   bool isLoading = true;
 
